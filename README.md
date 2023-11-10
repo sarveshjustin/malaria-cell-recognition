@@ -7,12 +7,13 @@ To develop a deep neural network for Malaria infected cell recognition and to an
 ## Problem Statement and Dataset
 Malaria dataset of 27,558 cell images with an equal number of parasitized and uninfected cells. A level-set based algorithm was applied to detect and segment the red blood cells. The images were collected and annotated by medical professionals.Here we build a convolutional neural network model that is able to classify the cells.
 
-https://user-images.githubusercontent.com/119393556/280784174-78271035-8140-42db-ad65-9ee344ef4ef5.png
+![280784174-78271035-8140-42db-ad65-9ee344ef4ef5-7](https://github.com/sarveshjustin/malaria-cell-recognition/assets/113497481/45eece47-09fb-4d88-81ec-4cf27ba39a74)
+
 
 ## Neural Network Model
 
+![280784420-e25ed4bf-97fa-4432-8acd-e22ef7acb776-3](https://github.com/sarveshjustin/malaria-cell-recognition/assets/113497481/b9565ad7-6af1-46dd-a5f4-8912de6c0e83)
 
-https://user-images.githubusercontent.com/119393556/280784420-e25ed4bf-97fa-4432-8acd-e22ef7acb776.png
 
 ## DESIGN STEPS
 
@@ -154,23 +155,25 @@ confusion_matrix(test_image_gen.classes,predictions)
 ### Training Loss, Validation Loss Vs Iteration Plot
 
 
-https://user-images.githubusercontent.com/119393556/280935470-5c9166ec-c3e0-4ff7-ab53-62ef55b62036.png
+![280935470-5c9166ec-c3e0-4ff7-ab53-62ef55b62036-3](https://github.com/sarveshjustin/malaria-cell-recognition/assets/113497481/8d81116f-6938-482b-8e4d-28018413cdb5)
 
 
 ### Classification Report
 
 
-https://user-images.githubusercontent.com/119393556/280935391-e3a1cd2a-d8da-45d1-b588-b4fe39fdb442.png
+![280935391-e3a1cd2a-d8da-45d1-b588-b4fe39fdb442-3](https://github.com/sarveshjustin/malaria-cell-recognition/assets/113497481/db614d1a-8c2a-4320-892c-b2895a6584bc)
+
 
 
 ### Confusion Matrix
+![280935321-27e1a7b8-e6dd-4dee-957b-b192f54fb53c-3](https://github.com/sarveshjustin/malaria-cell-recognition/assets/113497481/8e88318e-c730-40ce-b194-a84a0f1dd0a8)
 
-https://user-images.githubusercontent.com/119393556/280935321-27e1a7b8-e6dd-4dee-957b-b192f54fb53c.png
 
 
 
 ### New Sample Data Prediction
-https://user-images.githubusercontent.com/119393556/280935197-9b95d86b-b8a1-447d-bf0c-b95cec2f1b1a.png
+![280935197-9b95d86b-b8a1-447d-bf0c-b95cec2f1b1a-3](https://github.com/sarveshjustin/malaria-cell-recognition/assets/113497481/d9a844a2-b870-4e97-9d31-085f6374999e)
+
 
 
 
